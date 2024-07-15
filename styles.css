@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    flex: 1;
+    background-color: mediumturquoise;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    justify-content: stretch;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    height: 35vh;
+    border-radius: 25px;
+}
+
+.button-icon {
+    pointer-events: none;
+    filter: invert();
+    height: 75px;
+}
+
+.block-one {
+    margin: 50px 50px;
+    display: flex;
+    align-items: stretch;
+    width: 95%;
+    gap: 20px;
+}
+
+.title {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 76px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.block-two {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#wins, #loses, #draws{
+display: flex;
+flex-direction: column;
+padding: 15px 45px;
+border-radius: 10px;
+}
+
+#wins{
+    background-color: mediumaquamarine;
+}
+
+#loses{
+    background-color: rgb(253, 124, 124);
+}
+
+#draws{
+    background-color: gray;
+}
+
+.computerChoice{
+    padding: 10px 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.computer-choice-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: slateblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 25px;
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.align-center{
+    margin: 0px 0px;
+}
+.align-left{
+    margin-right: 65vw;
+}
+.align-right{
+    margin-left: 65vw;
+}

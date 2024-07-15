@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors!</title>
-</head>
-<body>
-    <script src="scripts.js"></script>
-    
-</body>
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- buttons for rock, paper, scissors -->
+    <div class="block-one">
+      <button id="rock">
+        <img src="./assets/rock.png" class="button-icon" />
+      </button>
+      <button id="paper">
+        <img src="./assets/paper.png" class="button-icon" />
+      </button>
+      <button id="scissors">
+        <img src="./assets/scissors.png" class="button-icon" />
+      </button>
+    </div>
+    <!-- shows results-->
+    <div class="computer-choice-wrapper">
+      <div class="computerChoice"></div>
+    </div>
+    <div class="block-two">
+      <div id="wins">
+        <div>Wins</div>
+      </div>
+      <div id="loses">
+        <div>Loses</div>
+      </div>
+      <div id="draws">
+        <div>Draws</div>
+      </div>
+    </div>
+  </body>
 </html>
